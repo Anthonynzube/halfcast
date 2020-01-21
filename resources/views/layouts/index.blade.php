@@ -2,4 +2,4 @@
 
 @yield('center')
 
-@include('layouts.footer')
+@include('layouts.homeFooter')
