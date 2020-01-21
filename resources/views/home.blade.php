@@ -62,7 +62,7 @@
             </div>
             <div class="slider-social slider-social-white">
                 <ul>
-                    <li><a href="#">DRIBBLE</a></li>
+                    <li><a href="#">Instagram</a></li>
                     <li><a href="#">Facebook</a></li>
                     <li><a href="#">TWITTER</a></li>
                 </ul>
@@ -301,7 +301,7 @@
                     </div>
                 </div>
                 <div class="btn-style-1 text-center">
-                    <a class="btn-border" href="shop-fullwide.html">
+                    <a class="btn-border" href="{{ route('shop')}}">
                         <div class="btn-viewmore-normal btn-ptb-1 btn-viewmore-bg-transparent btn-viewmore-common">
                             <span>View all products</span>
                         </div>
