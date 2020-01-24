@@ -8,15 +8,6 @@
                     <div class="img-position-hm7-1">
                         <img class="animated" src="{{ asset ('images/slider/slider-hm7-position-1.png') }}" alt="slider">
                     </div>
-                    <div class="img-position-hm7-2">
-                        <img class="animated" src="{{ asset ('images/slider/slider-hm7-position-2.png') }}" alt="slider">
-                    </div>
-                    <div class="img-position-hm7-3">
-                        <img class="animated" src="{{ asset ('images/slider/slider-hm7-position-3.png') }}" alt="slider">
-                    </div>
-                    <div class="img-position-hm7-4">
-                        <img class="animated" src="{{ asset ('images/slider/slider-hm7-position-4.png') }}" alt="slider">
-                    </div>
                     <div class="img-position-hm7-5">
                         <img class="animated" src="{{ asset ('images/slider/slider-hm7-position-5.png') }}" alt="slider">
                     </div>
