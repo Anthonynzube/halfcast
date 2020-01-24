@@ -15,7 +15,7 @@
                         <div class="ml-auto col-lg-6 col-md-7">
                             <div class="main-slider-content-7-1 text-center">
                                 <span class="animated">Flawless Skin </span>
-                                <h1 class="animated" id="flaw">Flawless You </h1>
+                                <h1 class="animated">Flawless You </h1>
                                 <div class="slider-btn-4">
                                     <a class="animated" href="{{ route ('shop') }}">Shop now <i class="fa fa-long-arrow-right"></i></a>
                                 </div>
@@ -34,9 +34,9 @@
                         <div class="ml-auto col-lg-6 col-md-7">
                             <div class="main-slider-content-7-1 text-center">
                                 <span class="animated">A Whole New World </span>
-                                <h1 class="animated" id="flaw height">Beautiful.</h1>
-                                <h1 class="animated" id="flaw height">Colourful.</h1>
-                                <h1 class="animated" id="flaw height"> You.</h1>
+                                <h1 class="animated">Beautiful.</h1>
+                                <h1 class="animated">Colourful.</h1>
+                                <h1 class="animated"> You.</h1>
 
                                 <div class="slider-btn-4">
                                     <a class="animated" href="{{ route ('shop') }}">Shop now <i class="fa fa-long-arrow-right"></i></a>
