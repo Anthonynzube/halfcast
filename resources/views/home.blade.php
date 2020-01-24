@@ -14,8 +14,8 @@
                     <div class="row no-gutters width-100-percent">
                         <div class="ml-auto col-lg-6 col-md-7">
                             <div class="main-slider-content-7-1 text-center">
-                                <span class="animated">#Woman Shoes </span>
-                                <h1 class="animated">Slingback heel shoes </h1>
+                                <span class="animated">Flawless Skin </span>
+                                <h1 class="animated" id="flaw">Flawless You </h1>
                                 <div class="slider-btn-4">
                                     <a class="animated" href="{{ route ('shop') }}">Shop now <i class="fa fa-long-arrow-right"></i></a>
                                 </div>
@@ -27,23 +27,17 @@
                     <div class="img-position-hm7-1">
                         <img class="animated" src="{{ asset ('images/slider/slider-hm7-position-1.png') }}" alt="slider">
                     </div>
-                    <div class="img-position-hm7-2">
-                        <img class="animated" src="{{ asset ('images/slider/slider-hm7-position-2.png') }}" alt="slider">
-                    </div>
-                    <div class="img-position-hm7-3">
-                        <img class="animated" src="{{ asset ('images/slider/slider-hm7-position-3.png') }}" alt="slider">
-                    </div>
-                    <div class="img-position-hm7-4">
-                        <img class="animated" src="{{ asset ('images/slider/slider-hm7-position-4.png') }}" alt="slider">
-                    </div>
                     <div class="img-position-hm7-6">
                         <img class="animated" src="{{ asset ('images/slider/slider-hm7-position-6.png') }}" alt="slider">
                     </div>
                     <div class="row no-gutters width-100-percent">
                         <div class="ml-auto col-lg-6 col-md-7">
                             <div class="main-slider-content-7-1 text-center">
-                                <span class="animated">#Man Blazer </span>
-                                <h1 class="animated">Satin Blazer </h1>
+                                <span class="animated">A Whole New World </span>
+                                <h1 class="animated" id="flaw height">Beautiful.</h1>
+                                <h1 class="animated" id="flaw height">Colourful.</h1>
+                                <h1 class="animated" id="flaw height"> You.</h1>
+
                                 <div class="slider-btn-4">
                                     <a class="animated" href="{{ route ('shop') }}">Shop now <i class="fa fa-long-arrow-right"></i></a>
                                 </div>
