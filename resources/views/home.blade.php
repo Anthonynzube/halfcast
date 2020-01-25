@@ -27,9 +27,9 @@
                     <div class="img-position-hm7-1">
                         <img class="animated" src="{{ asset ('images/slider/slider-hm7-position-1.png') }}" alt="slider">
                     </div>
-                    <div class="img-position-hm7-6">
+                    <!-- <div class="img-position-hm7-6">
                         <img class="animated" src="{{ asset ('images/slider/slider-hm7-position-6.png') }}" alt="slider">
-                    </div>
+                    </div> -->
                     <div class="row no-gutters width-100-percent">
                         <div class="ml-auto col-lg-6 col-md-7">
                             <div class="main-slider-content-7-1 text-center">
@@ -70,7 +70,7 @@
                         </a>
                     </div>
                     <div class="product-content-3">
-                        <h3 class="title-blod"><a href="product-details.html">Party Season</a></h3>
+                        <h3 class="title-blod"><a href="product-details.html">Privilege</a></h3>
                         <p>Vestibulum felis odio, imperdiet eget sollicitudin sed, laoreet maximus diam. Integer nec egestas augue. </p>
                         <div class="product-btn">
                             <a href="product-details.html">Shop now</a>
@@ -86,7 +86,7 @@
                         </a>
                     </div>
                     <div class="product-content-3">
-                        <h3 class="title-blod"><a href="product-details.html">Party Season</a></h3>
+                        <h3 class="title-blod"><a href="product-details.html">Extra Fairness</a></h3>
                         <p>Vestibulum felis odio, imperdiet eget sollicitudin sed, laoreet maximus diam. Integer nec egestas augue. </p>
                         <div class="product-btn">
                             <a href="product-details.html">Shop now</a>
@@ -102,23 +102,7 @@
                         </a>
                     </div>
                     <div class="product-content-3">
-                        <h3 class="title-blod"><a href="product-details.html">Party Season</a></h3>
-                        <p>Vestibulum felis odio, imperdiet eget sollicitudin sed, laoreet maximus diam. Integer nec egestas augue. </p>
-                        <div class="product-btn">
-                            <a href="product-details.html">Shop now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="product-all-2">
-                <div class="product-wrap-2 product-wrap-opacity-2">
-                    <div class="product-img-2">
-                        <a href="product-details.html">
-                            <img src="{{ asset ('images/product/product-17.jpg') }}" alt="">
-                        </a>
-                    </div>
-                    <div class="product-content-3">
-                        <h3 class="title-blod"><a href="product-details.html">Party Season</a></h3>
+                        <h3 class="title-blod"><a href="product-details.html">Flawless</a></h3>
                         <p>Vestibulum felis odio, imperdiet eget sollicitudin sed, laoreet maximus diam. Integer nec egestas augue. </p>
                         <div class="product-btn">
                             <a href="product-details.html">Shop now</a>
@@ -138,7 +122,7 @@
                     <div class="product-wrap mb-60">
                         <div class="product-img default-overlay mb-25">
                             <a href="product-details.html">
-                                <img class="default-img" src="{{ asset ('images/product/product-5.jpg') }}" alt="">
+                                <img class="default-img" src="{{ asset ('images/product/product-19.jpg') }}" alt="">
                                 <span class="badge-black badge-left-20 badge-top-20 badge-width-height-2 badge-border-radius-100">sale!</span>
                             </a>
                             <div class="product-action product-action-position-1">
@@ -160,7 +144,7 @@
                     <div class="product-wrap mb-60">
                         <div class="product-img default-overlay mb-25">
                             <a href="product-details.html">
-                                <img class="default-img" src="{{ asset ('images/product/product-6.jpg') }}" alt="">
+                                <img class="default-img" src="{{ asset ('images/product/product-20.jpg') }}" alt="">
                                 <span class="badge-black badge-right-0 badge-top-0 badge-width-height-1">sold uot</span>
                             </a>
                             <div class="product-action product-action-position-1">
@@ -182,7 +166,7 @@
                     <div class="product-wrap mb-60">
                         <div class="product-img default-overlay mb-25">
                             <a href="product-details.html">
-                                <img class="default-img" src="{{ asset ('images/product/product-7.jpg') }}" alt="">
+                                <img class="default-img" src="{{ asset ('images/product/product-21.jpg') }}" alt="">
                             </a>
                             <div class="product-action product-action-position-1">
                                 <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-eye"></i><span>Quick Shop</span></a>
@@ -203,7 +187,7 @@
                     <div class="product-wrap mb-60">
                         <div class="product-img default-overlay mb-25">
                             <a href="product-details.html">
-                                <img class="default-img" src="{{ asset ('images/product/product-8.jpg') }}" alt="">
+                                <img class="default-img" src="{{ asset ('images/product/product-22.jpg') }}" alt="">
                             </a>
                             <div class="product-action product-action-position-1">
                                 <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-eye"></i><span>Quick Shop</span></a>
@@ -243,7 +227,7 @@
                     <div class="product-wrap mb-60">
                         <div class="product-img default-overlay mb-25">
                             <a href="product-details.html">
-                                <img class="default-img" src="{{ asset ('images/product/product-19.jpg') }}" alt="">
+                                <img class="default-img" src="{{ asset ('images/product/product-23.jpg') }}" alt="">
                                 <span class="badge-black badge-left-0 badge-top-0 badge-width-height-1">NEW NOW</span>
                             </a>
                             <div class="product-action product-action-position-1">
@@ -265,7 +249,7 @@
                     <div class="product-wrap mb-60">
                         <div class="product-img default-overlay mb-25">
                             <a href="product-details.html">
-                                <img class="default-img" src="{{ asset ('images/product/product-16.jpg') }}" alt="">
+                                <img class="default-img" src="{{ asset ('images/product/product-24.jpg') }}" alt="">
                             </a>
                             <div class="product-action product-action-position-1">
                                 <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-eye"></i><span>Quick Shop</span></a>
@@ -286,7 +270,7 @@
                     <div class="product-wrap mb-60">
                         <div class="product-img default-overlay mb-25">
                             <a href="product-details.html">
-                                <img class="default-img" src="{{ asset ('images/product/product-3.jpg') }}" alt="">
+                                <img class="default-img" src="{{ asset ('images/product/product-25.jpg') }}" alt="">
                             </a>
                             <div class="product-action product-action-position-1">
                                 <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-eye"></i><span>Quick Shop</span></a>
@@ -307,7 +291,7 @@
                     <div class="product-wrap mb-60">
                         <div class="product-img default-overlay mb-25">
                             <a href="product-details.html">
-                                <img class="default-img" src="{{ asset ('images/product/product-4.jpg') }}" alt="">
+                                <img class="default-img" src="{{ asset ('images/product/product-26.jpg') }}" alt="">
                             </a>
                             <div class="product-action product-action-position-1">
                                 <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-eye"></i><span>Quick Shop</span></a>
@@ -347,7 +331,7 @@
                     <div class="product-wrap mb-60">
                         <div class="product-img default-overlay mb-25">
                             <a href="product-details.html">
-                                <img class="default-img" src="{{ asset ('images/product/product-19.jpg') }}" alt="">
+                                <img class="default-img" src="{{ asset ('images/product/product-27.jpg') }}" alt="">
                             </a>
                             <div class="product-action product-action-position-1">
                                 <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-eye"></i><span>Quick Shop</span></a>
@@ -368,7 +352,7 @@
                     <div class="product-wrap mb-60">
                         <div class="product-img default-overlay mb-25">
                             <a href="product-details.html">
-                                <img class="default-img" src="{{ asset ('images/product/product-16.jpg') }}" alt="">
+                                <img class="default-img" src="{{ asset ('images/product/product-28.jpg') }}" alt="">
                             </a>
                             <div class="product-action product-action-position-1">
                                 <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-eye"></i><span>Quick Shop</span></a>
@@ -389,7 +373,7 @@
                     <div class="product-wrap mb-60">
                         <div class="product-img default-overlay mb-25">
                             <a href="product-details.html">
-                                <img class="default-img" src="{{ asset ('images/product/product-3.jpg') }}" alt="">
+                                <img class="default-img" src="{{ asset ('images/product/product-19.jpg') }}" alt="">
                                 <span class="badge-black badge-left-20 badge-top-20 badge-width-height-2 badge-border-radius-100">-7.7%</span>
                             </a>
                             <div class="product-action product-action-position-1">
@@ -412,7 +396,7 @@
                     <div class="product-wrap mb-60">
                         <div class="product-img default-overlay mb-25">
                             <a href="product-details.html">
-                                <img class="default-img" src="{{ asset ('images/product/product-4.jpg') }}" alt="">
+                                <img class="default-img" src="{{ asset ('images/product/product-20.jpg') }}" alt="">
                             </a>
                             <div class="product-action product-action-position-1">
                                 <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-eye"></i><span>Quick Shop</span></a>
