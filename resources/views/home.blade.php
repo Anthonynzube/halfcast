@@ -14,8 +14,8 @@
                     <div class="row no-gutters width-100-percent">
                         <div class="ml-auto col-lg-6 col-md-7">
                             <div class="main-slider-content-7-1 text-center">
-                                <span class="animated">Flawless Skin </span>
-                                <h1 class="animated">Flawless You </h1>
+                                <span class="animated" id="xxx">Flawless Skin </span>
+                                <h1 class="animated">Flawless You! </h1>
                                 <div class="slider-btn-4">
                                     <a class="animated" href="{{ route ('shop') }}">Shop now <i class="fa fa-long-arrow-right"></i></a>
                                 </div>
@@ -25,11 +25,11 @@
                 </div>
                 <div class="single-main-slider slider-animated-1 slider-height-hm7 align-items-center custom-d-flex" data-dot="02">
                     <div class="img-position-hm7-1">
-                        <img class="animated" src="{{ asset ('images/slider/slider-hm7-position-1.png') }}" alt="slider">
+                        <img class="animated" src="{{ asset ('images/slider/banner-image.jpeg') }}" alt="slider">
                     </div>
-                    <!-- <div class="img-position-hm7-6">
-                        <img class="animated" src="{{ asset ('images/slider/slider-hm7-position-6.png') }}" alt="slider">
-                    </div> -->
+                    <div class="img-position-hm7-5">
+                        <img class="animated" src="{{ asset ('images/slider/slider-hm7-position-5.png') }}" alt="slider">
+                    </div>
                     <div class="row no-gutters width-100-percent">
                         <div class="ml-auto col-lg-6 col-md-7">
                             <div class="main-slider-content-7-1 text-center">
@@ -58,7 +58,9 @@
     <div class="product-area pt-130 pb-215">
         <div class="container-fluid">
             <div class="section-title-7 mb-65 text-center">
-                <h2>top collections</h2>
+                
+                <h2>Shop Skincare</h2>
+                
             </div>
         </div>
         <div class="product-slider-active-4">
@@ -77,6 +79,8 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="font-background">
             </div>
             <div class="product-all-2">
                 <div class="product-wrap-2 product-wrap-opacity-2">
@@ -220,14 +224,14 @@
     <div class="product-area section-padding-1 pb-125">
         <div class="container-fluid">
             <div class="section-title-7 mb-65 text-center">
-                <h2>top sale</h2>
+                <h2>Shop Makeup</h2>
             </div>
             <div class="row">
                 <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                     <div class="product-wrap mb-60">
                         <div class="product-img default-overlay mb-25">
                             <a href="product-details.html">
-                                <img class="default-img" src="{{ asset ('images/product/product-23.jpg') }}" alt="">
+                                <img class="default-img" src="{{ asset ('images/product/makeup-1.png') }}" alt="">
                                 <span class="badge-black badge-left-0 badge-top-0 badge-width-height-1">NEW NOW</span>
                             </a>
                             <div class="product-action product-action-position-1">
@@ -249,7 +253,7 @@
                     <div class="product-wrap mb-60">
                         <div class="product-img default-overlay mb-25">
                             <a href="product-details.html">
-                                <img class="default-img" src="{{ asset ('images/product/product-24.jpg') }}" alt="">
+                                <img class="default-img" src="{{ asset ('images/product/makeup-2.png') }}" alt="">
                             </a>
                             <div class="product-action product-action-position-1">
                                 <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-eye"></i><span>Quick Shop</span></a>
@@ -270,7 +274,7 @@
                     <div class="product-wrap mb-60">
                         <div class="product-img default-overlay mb-25">
                             <a href="product-details.html">
-                                <img class="default-img" src="{{ asset ('images/product/product-25.jpg') }}" alt="">
+                                <img class="default-img" src="{{ asset ('images/product/makeup-3.png') }}" alt="">
                             </a>
                             <div class="product-action product-action-position-1">
                                 <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-eye"></i><span>Quick Shop</span></a>
@@ -291,7 +295,7 @@
                     <div class="product-wrap mb-60">
                         <div class="product-img default-overlay mb-25">
                             <a href="product-details.html">
-                                <img class="default-img" src="{{ asset ('images/product/product-26.jpg') }}" alt="">
+                                <img class="default-img" src="{{ asset ('images/product/makeup-1.png') }}" alt="">
                             </a>
                             <div class="product-action product-action-position-1">
                                 <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-eye"></i><span>Quick Shop</span></a>

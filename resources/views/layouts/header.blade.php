@@ -66,7 +66,7 @@
                                     <li><a href="{{ route('about') }}">About Us</a>
                                         
                                     </li>
-                                    <li><a href="{{ route('shop') }}">Shop <i class="fa fa-angle-down"></i></a>
+                                    <li><a href="{{ route('shop') }}">Shop</a>
                                         
                                     </li>
                                     <li><a href="{{ route('contact') }}">Contact </a>

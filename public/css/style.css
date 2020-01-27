@@ -47,6 +47,11 @@
 /*----------------------------------------*/
 /*-- Google Font --*/
 @import url("https://fonts.googleapis.com/css?family=Alegreya:400,500,700,800,900|Poppins:200,300,400,500,600,700,800,900&display=swap");
+/*-- Custom Font --*/
+@font-face {
+  font-family: Billy Ohio;
+  src: url('/fonts/Billy Ohio.ttf');
+}
 /*-- Common Style --*/
 *,
 *::after,
@@ -79,6 +84,15 @@ h6 {
   font-weight: 400;
   margin-top: 0;
   font-family: "Poppins", sans-serif;
+}
+/* #font{
+  font-family: "Billy Ohio", sans-serif;
+
+} */
+.font-background{
+  background-image: url('/images/menu/face-powder.png');
+  width: 100px;
+  height: 50px;
 }
 
 p {
@@ -10570,17 +10584,21 @@ body.body-menu-overlay::before {
 
 .img-position-hm7-1 {
   position: absolute;
-  left: -11.5%;
+  left: -8.5%;
   z-index: 1;
-  bottom: -0.5%;
+  bottom: 50px;
   /* width: 1150 px; */
 }
 
-/* @media only screen and (max-width: 767px) {
+
+@media only screen and (max-width: 767px) {
   .img-position-hm7-1 {
-    left: 9.5%;
+    position: absolute;
+    left: -8.5%;
+    z-index: 1;
+    bottom: -10px;
   }
-} */
+}
 
 .img-position-hm7-2 {
   position: absolute;
@@ -10651,7 +10669,7 @@ body.body-menu-overlay::before {
 }
 
 .owl-carousel .owl-item .img-position-hm7-1 img {
-  width: 70%;
+  width: 75%;
 }
 
 /* @media only screen and (min-width: 1366px) and (max-width: 1600px) {
@@ -10804,7 +10822,7 @@ body.body-menu-overlay::before {
 
 @media only screen and (min-width: 1366px) and (max-width: 1600px) {
   .owl-carousel .owl-item .img-position-hm7-5 img {
-    width: 707px;
+    width: 900px;
   }
 }
 
@@ -10877,11 +10895,13 @@ body.body-menu-overlay::before {
   position: relative;
   z-index: 9;
   padding: 0 80px 0 125px;
+  
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1365px) {
   .main-slider-content-7-1 {
     padding: 0 80px 0 70px;
+    
   }
 }
 
@@ -10907,8 +10927,10 @@ body.body-menu-overlay::before {
   color: #262626;
   font-size: 20px;
   display: block;
-  line-height: 1;
+  line-height: 2;
+  font-weight: 400;
 }
+
 
 @media only screen and (max-width: 767px) {
   .main-slider-content-7-1 span {
@@ -10916,9 +10938,43 @@ body.body-menu-overlay::before {
   }
 }
 
+
+/* #xxx{
+  font-size: 35px;
+} */
+
+@media only screen and (max-width: 1366){
+  #xxx{
+    font-size: 35px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+  #xxx{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #xxx{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #xxx{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #xxx{
+    font-size: 15 px;
+  }
+}
 .main-slider-content-7-1 h1 {
   color: #262626;
-  font-size: 70px;
+  font-size: 75px;
   /* line-height: 30px; */
   margin: 20px 0 53px;
   line-height: 20px;
@@ -13416,11 +13472,12 @@ body.body-menu-overlay::before {
 .section-title-7 h2 {
   position: relative;
   margin: 0;
-  font-size: 24px;
-  text-transform: uppercase;
+  font-size: 70px;
+  text-transform: capitalize;
   letter-spacing: 3px;
   display: inline-block;
   line-height: 17px;
+  font-family: "Billy Ohio", sans-serif;
 }
 
 @media only screen and (max-width: 767px) {
