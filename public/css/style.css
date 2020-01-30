@@ -10582,12 +10582,186 @@ body.body-menu-overlay::before {
   color: #fc4f4f;
 }
 
+/* .img-position-makeup {
+  position: relative;
+    bottom: -235%;
+    left: 42%;
+} */
+
+@media only screen and (min-width: 1600px) {
+  .img-position-makeup {
+    position: relative;
+    bottom: 200px;
+    left: 43%;
+  }
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1600px) {
+  .img-position-makeup {
+    position: relative;
+    bottom: 200px;
+    left: 40%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+  .img-position-makeup {
+    position: relative;
+    bottom: 200px;
+    left: 38%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .img-position-makeup {
+    position: relative;
+    bottom: 200px;
+    left: 37%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .img-position-makeup {
+    position: relative;
+    bottom: 200px;
+    left: 33%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .img-position-makeup {
+    position: relative;
+    bottom: 90px;
+    left: 35%;
+  }
+
+}
+.img-position-makeup img {
+  height: 200px;
+  width: 300px;
+}
+
+@media only screen and (max-width: 767px) {
+  .img-position-makeup img {
+    height: 100px;
+    width: 150px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .img-position-skincare {
+    position: relative;
+    bottom: 200px;
+    left: 42%;
+  }
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1600px) {
+  .img-position-skincare {
+    position: relative;
+    bottom: 200px;
+    left: 40%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+  .img-position-skincare {
+    position: relative;
+    bottom: 200px;
+    left: 38%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .img-position-skincare {
+    position: relative;
+    bottom: 200px;
+    left: 37%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .img-position-skincare {
+    position: relative;
+    bottom: 170px;
+    left: 33%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .img-position-skincare {
+    position: relative;
+    bottom: 90px;
+    left: 35%;
+  }
+
+}
+/* @media only screen and (min-width: 1600px) {
+  .img-position-skincare {
+    position: absolute;
+    bottom: -52%;
+    left: 43%;
+  }
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1600px) {
+  .img-position-skincare {
+    position: absolute;
+    bottom: -43%;
+    left: 40%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+  .img-position-skincare {
+    position: absolute;
+    bottom: -47%;
+    left: 38%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .img-position-skincare {
+    position: absolute;
+    bottom: -32%;
+    left: 37%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .img-position-skincare {
+    position: absolute;
+    bottom: -15%;
+    left: 33%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .img-position-skincare {
+    position: absolute;
+    bottom: 30%;
+    left: 37%;
+  }
+
+} */
+
+.img-position-skincare img {
+  height: 200px;
+  width: 300px;
+}
+
+@media only screen and (max-width: 767px) {
+  .img-position-skincare img {
+    height: 100px;
+    width: 150px;
+  }
+}
+
 .img-position-hm7-1 {
   position: absolute;
   left: -8.5%;
   z-index: 1;
   bottom: 50px;
-  /* width: 1150 px; */
 }
 
 
@@ -13467,6 +13641,9 @@ body.body-menu-overlay::before {
 
 .section-title-7 {
   display: block;
+  position: relative;
+  left: 0;
+  z-index: 3;
 }
 
 .section-title-7 h2 {
@@ -13482,17 +13659,17 @@ body.body-menu-overlay::before {
 
 @media only screen and (max-width: 767px) {
   .section-title-7 h2 {
-    font-size: 20px;
+    font-size: 30px;
     letter-spacing: 1px;
   }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+/* @media only screen and (min-width: 576px) and (max-width: 767px) {
   .section-title-7 h2 {
     font-size: 24px;
     letter-spacing: 3px;
   }
-}
+} */
 
 .section-title-7 h2:before {
   position: absolute;

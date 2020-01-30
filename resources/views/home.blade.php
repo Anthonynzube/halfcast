@@ -58,9 +58,10 @@
     <div class="product-area pt-130 pb-215">
         <div class="container-fluid">
             <div class="section-title-7 mb-65 text-center">
-                
                 <h2>Shop Skincare</h2>
-                
+            </div>
+            <div class="img-position-skincare">
+                <img class="animated" src="{{ asset ('images/menu/cream.png') }}" alt="slider">
             </div>
         </div>
         <div class="product-slider-active-4">
@@ -79,8 +80,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="font-background">
             </div>
             <div class="product-all-2">
                 <div class="product-wrap-2 product-wrap-opacity-2">
@@ -102,7 +101,7 @@
                 <div class="product-wrap-2 product-wrap-opacity-2">
                     <div class="product-img-2">
                         <a href="product-details.html">
-                            <img src="{{ asset ('images/product/product-17.jpg') }}" alt="">
+                            <img src="{{ asset ('images/product/flawless.jpg') }}" alt="">
                         </a>
                     </div>
                     <div class="product-content-3">
@@ -121,6 +120,7 @@
             <div class="section-title-7 mb-65 text-center">
                 <h2>new arrival</h2>
             </div>
+            
             <div class="row">
                 <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                     <div class="product-wrap mb-60">
@@ -225,6 +225,9 @@
         <div class="container-fluid">
             <div class="section-title-7 mb-65 text-center">
                 <h2>Shop Makeup</h2>
+            </div>
+            <div class="img-position-makeup">
+                <img class="animated" src="{{ asset ('images/menu/face-powder.png') }}" alt="slider">
             </div>
             <div class="row">
                 <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
