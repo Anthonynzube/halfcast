@@ -10693,8 +10693,8 @@ body.body-menu-overlay::before {
 @media only screen and (max-width: 767px) {
   .img-position-skincare {
     position: absolute;
-    bottom: 30%;
-    left: 37%;
+    bottom: 33%;
+    left: 35%;
   }
 
 }
