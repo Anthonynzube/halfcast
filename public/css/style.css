@@ -10582,12 +10582,6 @@ body.body-menu-overlay::before {
   color: #fc4f4f;
 }
 
-/* .img-position-makeup {
-  position: relative;
-    bottom: -235%;
-    left: 42%;
-} */
-
 @media only screen and (min-width: 1600px) {
   .img-position-makeup {
     position: relative;
@@ -10656,47 +10650,7 @@ body.body-menu-overlay::before {
   }
 }
 
-@media only screen and (min-width: 1366px) and (max-width: 1600px) {
-  .img-position-skincare {
-    position: relative;
-    bottom: 200px;
-    left: 40%;
-  }
-}
-
-@media only screen and (min-width: 1200px) and (max-width: 1365px) {
-  .img-position-skincare {
-    position: relative;
-    bottom: 200px;
-    left: 38%;
-  }
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .img-position-skincare {
-    position: relative;
-    bottom: 200px;
-    left: 37%;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .img-position-skincare {
-    position: relative;
-    bottom: 170px;
-    left: 33%;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .img-position-skincare {
-    position: relative;
-    bottom: 90px;
-    left: 35%;
-  }
-
-}
-/* @media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1600px) {
   .img-position-skincare {
     position: absolute;
     bottom: -52%;
@@ -10743,7 +10697,7 @@ body.body-menu-overlay::before {
     left: 37%;
   }
 
-} */
+}
 
 .img-position-skincare img {
   height: 200px;
