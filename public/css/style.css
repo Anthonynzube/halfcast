@@ -8638,7 +8638,7 @@ body.body-menu-overlay::before {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .main-slider-content-1 h1 {
-    font-size: 75px;
+    font-size: 70px;
     line-height: 60px;
     margin: 25px 0 40px;
   }
@@ -10696,7 +10696,22 @@ body.body-menu-overlay::before {
     bottom: 33%;
     left: 35%;
   }
+}
 
+@media only screen and (max-width: 667px) {
+  .img-position-skincare {
+    position: absolute;
+    bottom: 27%;
+    left: 35%;
+  }
+}
+
+@media only screen and (max-width: 736px) {
+  .img-position-skincare {
+    position: absolute;
+    bottom: 33%;
+    left: 35%;
+  }
 }
 
 .img-position-skincare img {
@@ -10722,7 +10737,7 @@ body.body-menu-overlay::before {
 @media only screen and (max-width: 767px) {
   .img-position-hm7-1 {
     position: absolute;
-    left: -8.5%;
+    left: -18%;
     z-index: 1;
     bottom: -10px;
   }
@@ -11047,7 +11062,7 @@ body.body-menu-overlay::before {
 
 @media only screen and (max-width: 767px) {
   .main-slider-content-7-1 {
-    padding: 50px 0px 0 0px;
+    padding: 50px 0px 0 75px;
   }
 }
 
@@ -11102,7 +11117,7 @@ body.body-menu-overlay::before {
 }
 .main-slider-content-7-1 h1 {
   color: #262626;
-  font-size: 75px;
+  font-size: 70px;
   /* line-height: 30px; */
   margin: 20px 0 53px;
   line-height: 20px;
@@ -11134,7 +11149,7 @@ body.body-menu-overlay::before {
 
 @media only screen and (max-width: 767px) {
   .main-slider-content-7-1 h1 {
-    font-size: 40px;
+    font-size: 35px;
     margin: 5px 0 20px;
     line-height: 3 0px;
   }
