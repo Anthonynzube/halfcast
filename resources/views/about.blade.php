@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-lg-10 ml-auto">
                 <div class="breadcrumb-content-2">
-                    <h2>Go forth & be <br> fabulous</h2>
+                    <h2>.</h2>
                 </div>
             </div>
         </div>
