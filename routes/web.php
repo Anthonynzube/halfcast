@@ -15,6 +15,6 @@ Route::get('/', 'PagesController@index')->name('home');
 Route::get('about', 'PagesController@about')->name('about');
 Route::get('contact', 'PagesController@contact')->name('contact');
 Route::get('404', 'PagesController@error')->name('404');
-Route::get('shop', 'PagesController@shop')->name('shop');
+Route::get('shop', 'PagesController@comingSoon')->name('shop');
 Route::get('blog', 'PagesController@blog')->name('blog');
 

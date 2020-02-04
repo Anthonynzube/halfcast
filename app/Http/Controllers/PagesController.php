@@ -35,4 +35,9 @@ class PagesController extends Controller
 
         return view("blog");
     }
+
+    public function comingSoon(){
+
+        return view("comingSoon");
+    }
 }

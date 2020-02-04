@@ -462,8 +462,11 @@
                 <h2>shop Instagram</h2>
             </div>
             <div class="instagram-feed-thumb">
-                <div id="instafeed" class="instagram-wrap black-instagram instafeed-active-3 custom-instagram-row mb-70" data-userid="6666969077" data-accesstoken="6666969077.1677ed0.d325f406d94c4dfab939137c5c2cc6c2">
-                </div>
+                {{-- <div id="instafeed" class="instagram-wrap black-instagram instafeed-active-3 custom-instagram-row mb-70" data-userid="6666969077" data-accesstoken="6666969077.1677ed0.d325f406d94c4dfab939137c5c2cc6c2">
+                </div> --}}
+                <!-- SnapWidget -->
+                <script src="https://snapwidget.com/js/snapwidget.js"></script>
+                <iframe src="https://snapwidget.com/embed/787632" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
                 <div class="btn-style-1 text-center">
                     <a class="btn-border" href="#">
                         <div class="btn-viewmore-normal btn-ptb-1 btn-ptb-inc btn-viewmore-bg-transparent btn-viewmore-common">
