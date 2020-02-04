@@ -60,7 +60,7 @@
             <div class="section-title-7 mb-65 text-center">
                 <h2>Shop Skincare</h2>
             </div>
-            <div class="img-position-skincare">
+            <div class="img-position-skincare mobile">
                 <img class="animated" src="{{ asset ('images/menu/cream.png') }}" alt="slider">
             </div>
         </div>
@@ -74,7 +74,10 @@
                     </div>
                     <div class="product-content-3">
                         <h3 class="title-blod"><a href="product-details.html">Privilege</a></h3>
-                        <p>Vestibulum felis odio, imperdiet eget sollicitudin sed, laoreet maximus diam. Integer nec egestas augue. </p>
+                        <p>Experience age defying action in a whole new and effective way. <br>
+                        Immunity against aging signs is guaranteed. <br>
+                        Feel young again, be privileged.
+                        </p>
                         <div class="product-btn">
                             <a href="product-details.html">Shop now</a>
                         </div>
@@ -90,7 +93,10 @@
                     </div>
                     <div class="product-content-3">
                         <h3 class="title-blod"><a href="product-details.html">Extra Fairness</a></h3>
-                        <p>Vestibulum felis odio, imperdiet eget sollicitudin sed, laoreet maximus diam. Integer nec egestas augue. </p>
+                        <p>Need something more? Something extra? <br>
+                        Then try this unique skin illuminator. <br>
+                        Get more lightening effect in a little time.
+                        </p>
                         <div class="product-btn">
                             <a href="product-details.html">Shop now</a>
                         </div>
@@ -106,7 +112,10 @@
                     </div>
                     <div class="product-content-3">
                         <h3 class="title-blod"><a href="product-details.html">Flawless</a></h3>
-                        <p>Vestibulum felis odio, imperdiet eget sollicitudin sed, laoreet maximus diam. Integer nec egestas augue. </p>
+                        <p>Achieve that dream skin and flawless look with this unique and professional set of skincare brand. <br>
+                            The complete toolkit to bring your fantasies to reality. <br>
+                            For people of colour.
+                        </p>
                         <div class="product-btn">
                             <a href="product-details.html">Shop now</a>
                         </div>
