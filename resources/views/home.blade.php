@@ -49,7 +49,7 @@
         </div>
         <div class="slider-social">
             <ul>
-                <li><a href="#">Instagram</a></li>
+                <li><a href="https://www.instagram.com/halfcastcosmetics/">Instagram</a></li>
                 <li><a href="#">Facebook</a></li>
                 <li><a href="#">TWITTER</a></li>
             </ul>
@@ -146,9 +146,9 @@
                             </div>
                         </div>
                         <div class="product-content-2 title-font-width-400 text-center">
-                            <h3><a href="product-details.html">Double-breasted faux fur coat</a></h3>
+                            <h3><a href="product-details.html">Clarifying Brightening Beauty Milk</a></h3>
                             <div class="product-price">
-                                <span class="new-price">$22.00 - $49.00</span>
+                                <span class="new-price">&#8358 ---</span>
                             </div>
                         </div>
                     </div>
@@ -158,7 +158,7 @@
                         <div class="product-img default-overlay mb-25">
                             <a href="product-details.html">
                                 <img class="default-img" src="{{ asset ('images/product/product-20.jpg') }}" alt="">
-                                <span class="badge-black badge-right-0 badge-top-0 badge-width-height-1">sold uot</span>
+                                <span class="badge-black badge-right-0 badge-top-0 badge-width-height-1">sold out</span>
                             </a>
                             <div class="product-action product-action-position-1">
                                 <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-eye"></i><span>Quick Shop</span></a>
@@ -168,9 +168,9 @@
                             </div>
                         </div>
                         <div class="product-content-2 title-font-width-400 text-center">
-                            <h3><a href="product-details.html">Quilted parka with hood</a></h3>
+                            <h3><a href="product-details.html">Unifying Lightening Body Lotion</a></h3>
                             <div class="product-price">
-                                <span class="new-price">$49.00</span>
+                                <span class="new-price">&#8358 ---</span>
                             </div>
                         </div>
                     </div>
@@ -189,9 +189,9 @@
                             </div>
                         </div>
                         <div class="product-content-2 title-font-width-400 text-center">
-                            <h3><a href="product-details.html">Contrast faux fur jacket</a></h3>
+                            <h3><a href="product-details.html">Beauty Facial Cream</a></h3>
                             <div class="product-price">
-                                <span class="new-price">$50.00</span>
+                                <span class="new-price">&#8358 ---</span>
                             </div>
                         </div>
                     </div>
@@ -210,9 +210,9 @@
                             </div>
                         </div>
                         <div class="product-content-2 title-font-width-400 text-center">
-                            <h3><a href="product-details.html">Bejewelled velvet sandals</a></h3>
+                            <h3><a href="product-details.html">Active Unifying Lightening Bar</a></h3>
                             <div class="product-price">
-                                <span class="new-price">$35.00</span>
+                                <span class="new-price">&#8358 ---</span>
                             </div>
                         </div>
                     </div>
@@ -254,9 +254,9 @@
                             </div>
                         </div>
                         <div class="product-content-2 title-font-width-400 text-center">
-                            <h3><a href="product-details.html">Double-breasted faux fur coat</a></h3>
+                            <h3><a href="product-details.html">Age Defying Bar Soap</a></h3>
                             <div class="product-price">
-                                <span class="new-price">$22.00</span>
+                                <span class="new-price">&#8358 ---</span>
                             </div>
                         </div>
                     </div>
@@ -275,9 +275,9 @@
                             </div>
                         </div>
                         <div class="product-content-2 title-font-width-400 text-center">
-                            <h3><a href="product-details.html">Quilted parka with hood</a></h3>
+                            <h3><a href="product-details.html">Unique Glow Face Powder</a></h3>
                             <div class="product-price">
-                                <span class="new-price">$49.00</span>
+                                <span class="new-price">&#8358 ---</span>
                             </div>
                         </div>
                     </div>
@@ -296,9 +296,9 @@
                             </div>
                         </div>
                         <div class="product-content-2 title-font-width-400 text-center">
-                            <h3><a href="product-details.html">Contrast faux fur jacket</a></h3>
+                            <h3><a href="product-details.html">Clarifying Brightening Beauty Milk</a></h3>
                             <div class="product-price">
-                                <span class="new-price">$50.00</span>
+                                <span class="new-price">&#8358 ---</span>
                             </div>
                         </div>
                     </div>
@@ -317,9 +317,9 @@
                             </div>
                         </div>
                         <div class="product-content-2 title-font-width-400 text-center">
-                            <h3><a href="product-details.html">Bejewelled velvet sandals</a></h3>
+                            <h3><a href="product-details.html">Unifying Lightening Body Lotion</a></h3>
                             <div class="product-price">
-                                <span class="new-price">$35.00</span>
+                                <span class="new-price">&#8358 ---</span>
                             </div>
                         </div>
                     </div>
@@ -357,9 +357,9 @@
                             </div>
                         </div>
                         <div class="product-content-2 title-font-width-400 text-center">
-                            <h3><a href="product-details.html">Double-breasted faux fur coat</a></h3>
+                            <h3><a href="product-details.html">Age Defying Bar Soap</a></h3>
                             <div class="product-price">
-                                <span class="new-price">$22.00</span>
+                                <span class="new-price">&#8358 ---</span>
                             </div>
                         </div>
                     </div>
@@ -378,9 +378,9 @@
                             </div>
                         </div>
                         <div class="product-content-2 title-font-width-400 text-center">
-                            <h3><a href="product-details.html">Quilted parka with hood</a></h3>
+                            <h3><a href="product-details.html">Unique Glow Face Powder</a></h3>
                             <div class="product-price">
-                                <span class="new-price">$49.00</span>
+                                <span class="new-price">&#8358 ---</span>
                             </div>
                         </div>
                     </div>
@@ -400,10 +400,10 @@
                             </div>
                         </div>
                         <div class="product-content-2 title-font-width-400 text-center">
-                            <h3><a href="product-details.html">Contrast faux fur jacket</a></h3>
+                            <h3><a href="product-details.html">Clarifying Brightening Beauty Milk</a></h3>
                             <div class="product-price">
-                                <span class="old-price">$80.00</span>
-                                <span class="new-price">$55.00</span>
+                                {{-- <span class="old-price">&#8358 ---</span> --}}
+                                <span class="new-price">&#8358 ---</span>
                             </div>
                         </div>
                     </div>
@@ -422,9 +422,9 @@
                             </div>
                         </div>
                         <div class="product-content-2 title-font-width-400 text-center">
-                            <h3><a href="product-details.html">Bejewelled velvet sandals</a></h3>
+                            <h3><a href="product-details.html">Unifying Lightening Body Lotion</a></h3>
                             <div class="product-price">
-                                <span class="new-price">$35.00</span>
+                                <span class="new-price">&#8358 ---</span>
                             </div>
                         </div>
                     </div>
@@ -471,11 +471,11 @@
                 <h2>shop Instagram</h2>
             </div>
             <div class="instagram-feed-thumb">
-                {{-- <div id="instafeed" class="instagram-wrap black-instagram instafeed-active-3 custom-instagram-row mb-70" data-userid="6666969077" data-accesstoken="6666969077.1677ed0.d325f406d94c4dfab939137c5c2cc6c2">
-                </div> --}}
+                <div id="instafeed" class="instagram-wrap black-instagram instafeed-active-3 custom-instagram-row mb-70" data-userid="6666969077" data-accesstoken="6666969077.1677ed0.d325f406d94c4dfab939137c5c2cc6c2">
+                </div>
                 <!-- SnapWidget -->
-                <script src="https://snapwidget.com/js/snapwidget.js"></script>
-                <iframe src="https://snapwidget.com/embed/787632" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+                {{-- <script src="https://snapwidget.com/js/snapwidget.js"></script>
+                <iframe src="https://snapwidget.com/embed/787632" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe> --}}
                 <div class="btn-style-1 text-center">
                     <a class="btn-border" href="#">
                         <div class="btn-viewmore-normal btn-ptb-1 btn-ptb-inc btn-viewmore-bg-transparent btn-viewmore-common">
@@ -489,7 +489,7 @@
             </div>
         </div>
     </div>
-    <div class="testimonial-area jarallax parallax-img pt-80 pb-80" style="background-image:url({{ asset ('images/bg/bg-6.jpg') }});">
+    <div class="testimonial-area jarallax parallax-img pt-80 pb-80" style="background-image:url({{ asset ('images/bg/halfcast-about-us-banner.jpg') }});">
         <div class="container">
             <div class="testimonial-active owl-carousel">
                 <div class="single-testimonial text-center">
