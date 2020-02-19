@@ -286,7 +286,7 @@
                         {{-- <a class="behance" href="#"><i class="fa fa-behance"></i></a> --}}
                     </div>
                     <div class="copyright">
-                        <p>© 2020 <a href="https://hasthemes.com/">HalfCast.</a> All rights reserved</p>
+                        <p>© 2020 <a href="/">HalfCast.</a> All rights reserved</p>
                     </div>
                 </div>
             </div>

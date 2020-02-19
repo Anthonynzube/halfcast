@@ -18,3 +18,7 @@ Route::get('404', 'PagesController@error')->name('404');
 Route::get('shop', 'PagesController@comingSoon')->name('shop');
 Route::get('blog', 'PagesController@blog')->name('blog');
 
+
+Auth::routes();
+
+Route::get('/dashboard', 'HomeController@dashboard')->name('dashboard');

@@ -17,7 +17,7 @@
                                 <span class="animated" id="xxx">Flawless Skin </span>
                                 <h1 class="animated">Flawless You! </h1>
                                 <div class="slider-btn-4">
-                                    <a class="animated" href="{{ route ('shop') }}">Shop now <i class="fa fa-long-arrow-right"></i></a>
+                                    <a class="animated" href="/shop">Shop now <i class="fa fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -39,7 +39,7 @@
                                 <h1 class="animated"> You.</h1>
 
                                 <div class="slider-btn-4">
-                                    <a class="animated" href="{{ route ('shop') }}">Shop now <i class="fa fa-long-arrow-right"></i></a>
+                                    <a class="animated" href="/shop<">Shop now <i class="fa fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -219,7 +219,7 @@
                 </div>
             </div>
             <div class="btn-style-1 text-center">
-                <a class="btn-border" href="{{ route ('shop') }}">
+                <a class="btn-border" href="/shop">
                     <div class="btn-viewmore-normal btn-ptb-1 btn-viewmore-bg-transparent btn-viewmore-common">
                         <span>View all products</span>
                     </div>
@@ -326,7 +326,7 @@
                 </div>
             </div>
             <div class="btn-style-1 text-center">
-                <a class="btn-border" href="{{ route ('shop') }}">
+                <a class="btn-border" href="/shop">
                     <div class="btn-viewmore-normal btn-ptb-1 btn-viewmore-bg-transparent btn-viewmore-common">
                         <span>View all products</span>
                     </div>
@@ -431,7 +431,7 @@
                 </div>
             </div>
             <div class="btn-style-1 text-center">
-                <a class="btn-border" href="{{ route ('shop') }}">
+                <a class="btn-border" href="/shop">
                     <div class="btn-viewmore-normal btn-ptb-1 btn-viewmore-bg-transparent btn-viewmore-common">
                         <span>View all products</span>
                     </div>

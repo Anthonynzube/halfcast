@@ -51,7 +51,7 @@
                 <div class="row align-items-center">
                     <div class="col-xl-2 col-lg-2">
                         <div class="logo logo-width">
-                            <a href="{{ route('home') }}">
+                            <a href="/">
                                 <img src="{{ asset ('images/logo/logo.png') }}" alt="logo">
                             </a>
                         </div>
@@ -60,40 +60,45 @@
                         <div class="main-menu menu-lh-1 main-menu-padding-1">
                             <nav>
                                 <ul>
-                                    <li class="position-static"><a class="active" href="{{ route('home') }}">Home</a>
+                                    <li class="position-static"><a class="active" href="/">Home</a>
                                         
                                     </li>
-                                    <li><a href="{{ route('about') }}">About Us</a>
+                                    <li><a href="/about">About Us</a>
                                         
                                     </li>
-                                    <li><a href="{{ route('shop') }}">Shop</a>
+                                    <li><a href="/shop">Shop</a>
                                         
                                     </li>
-                                    <li><a href="{{ route('contact') }}">Contact </a>
+                                    <li><a href="/contact">Contact </a>
                                         
                                     </li>
-                                    <li><a href="{{ route('blog') }}">Blog </i></a>
+                                    <li><a href="/blog">Blog </i></a>
                                         
                                     </li>
-                                    {{-- <li><a href="{{ route('home') }}">Instagram Shop </a></li> --}}
+                                    <!-- <li><a href="/">Instagram Shop </a></li> -->
                                 </ul>
                             </nav>
                         </div>
                     </div>
                     <div class="col-xl-2 col-lg-2">
                         <div class="header-right-wrap header-right-flex">
-                            <div class="same-style header-wishlist">
+                            <!-- <div class="same-style header-wishlist">
                                 <a href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                            </div>
-                            <div class="same-style cart-wrap">
+                            </div> -->
+                            <!-- <div class="same-style cart-wrap">
                                 <a href="#" class="cart-active">
                                     <i class="dlicon shopping_bag-20"></i>
                                     <span class="count-style">02</span>
                                 </a>
-                            </div>
+                            </div> -->
                             <div class="same-style header-search">
                                 <a class="search-active" href="#">
                                     <i class="dlicon ui-1_zoom"></i>
+                                </a>
+                            </div>
+                            <div class="same-style">
+                                <a href="/dashboard">
+                                    <i class="dlicon users_man-23"></i>
                                 </a>
                             </div>
                             <div class="same-style header-off-canvas">
@@ -111,7 +116,7 @@
                 <div class="row align-items-center">
                     <div class="col-6">
                         <div class="mobile-logo logo-width">
-                            <a href="{{ route('home') }}">
+                            <a href="/">
                                 <img alt="" src="{{ asset ('images/logo/logo.png') }}">
                             </a>
                         </div>
@@ -207,22 +212,22 @@
                                 <!-- mobile menu navigation start -->
                                 <nav>
                                     <ul class="mobile-menu">
-                                        <li><a href="{{ route('home') }}">Home</a>
+                                        <li><a href="/">Home</a>
                                             
                                         </li>
-                                        <li><a href="{{ route('about') }}">About Us</a>
+                                        <li><a href="/about">About Us</a>
                                             
                                         </li>
-                                        <li class="menu-item-has-children "><a href="{{ route('shop') }}">shop</a>
+                                        <li class="menu-item-has-children "><a href="/shop">shop</a>
                                             
                                         </li>
-                                        <li><a href="{{ route('contact') }}">Contact</a>
+                                        <li><a href="/contact">Contact</a>
                                             
                                         </li>
-                                        <li><a href="{{ route('blog') }}">Blog</a>
+                                        <li><a href="/blog">Blog</a>
                                             
                                         </li>
-                                        {{-- <li><a href="shop-instagram.html">Instagram Shop </a></li> --}}
+                                        <!-- <li><a href="shop-instagram.html">Instagram Shop </a></li> -->
                                     </ul>
                                 </nav>
                                 <!-- mobile menu navigation end -->

@@ -4,7 +4,7 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-3 col-12">
                             <div class="logo logo-res-center">
-                                <a href="{{ route('home') }}">
+                                <a href="/">
                                     <img src="{{ asset ('images/logo/logo-white.png') }}" alt="logo">
                                 </a>
                             </div>
@@ -13,11 +13,11 @@
                             <div class="footer-menu text-center">
                                 <nav>
                                     <ul>
-                                        <li><a href="{{ route('about') }}">About Us</a></li>
+                                        <li><a href="/about">About Us</a></li>
                                         <li><a href="#">Help Center</a></li>
                                         <li><a href="#">Our Team</a></li>
                                         <li><a href="#">Privacy Policy</a></li>
-                                        <li><a href="{{ route('blog') }}">The Blog</a></li>
+                                        <li><a href="/blog">The Blog</a></li>
                                     </ul>
                                 </nav>
                             </div>
