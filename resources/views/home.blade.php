@@ -473,9 +473,10 @@
             <div class="instagram-feed-thumb">
                 <div id="instafeed" class="instagram-wrap black-instagram instafeed-active-3 custom-instagram-row mb-70" data-userid="6666969077" data-accesstoken="6666969077.1677ed0.d325f406d94c4dfab939137c5c2cc6c2">
                 </div>
+                
                 <!-- SnapWidget -->
-                {{-- <script src="https://snapwidget.com/js/snapwidget.js"></script>
-                <iframe src="https://snapwidget.com/embed/787632" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe> --}}
+                <!--<script src="https://snapwidget.com/js/snapwidget.js"></script>
+                <iframe src="https://snapwidget.com/embed/787632" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>-->
                 <div class="btn-style-1 text-center">
                     <a class="btn-border" href="#">
                         <div class="btn-viewmore-normal btn-ptb-1 btn-ptb-inc btn-viewmore-bg-transparent btn-viewmore-common">
@@ -508,6 +509,50 @@
                         <span>Mary Scott - Founder & CEO</span>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!--news letter popup start-->
+    <div class="newletter-popup">
+        <div id="popup2">
+            <span class="b-close"><span><i class="dlicon ui-1_simple-remove"></i></span></span>
+        </div>
+        <div class="popup-wrapper-all">
+            <div class="popup-subscribe-area">
+                <span>Sign up below to recieve information about HalfCast's latest releases</span>
+                <h2>Signup To Our Newsletter</h2>
+                <div class="subscribe-bottom">
+                    <form  method="POST" action="/newsletter">
+                        @csrf
+                        <div class="mc-form">
+
+                            @if( session('success'))
+                                <div class="alert alert-success" role="alert">
+                                    {{session('success')}}
+                                </div>
+                            @endif
+
+                            @if( session('failure'))
+                                <div class="alert alert-danger" role="alert">
+                                    {{session('failure')}}
+                                </div>
+                            @endif
+                            
+                            <input type="email" value="" name="email" class="email" placeholder="Your email address…" required>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div class="mc-news" aria-hidden="true"><input type="text" name="b_6bbb9b6f5827bd842d9640c82_05d85f18ef" tabindex="-1" value=""></div>
+                            <div class="clear-2"><input type="submit" value="subscribe" name="subscribe" class="button"></div>
+                        </div>
+                    </form>
+                </div>
+                <div class="dont-show mt-15">
+                    <input type="checkbox" id="newsletter-permission">
+                    <label for="newsletter-permission">Do not show popup anymore</label>
+                </div>
+            </div>
+            <div class="popup-image">
+                <img src="{{ asset ('images/banner/newsletter.jpg') }}" alt="banner">
             </div>
         </div>
     </div>

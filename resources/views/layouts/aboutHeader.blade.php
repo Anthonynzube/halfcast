@@ -83,25 +83,32 @@
                         </div>
                         <div class="col-xl-2 col-lg-2">
                             <div class="header-right-wrap header-right-flex">
-                                <div class="same-style same-style-white header-wishlist">
+                                <!-- <div class="same-style same-style-white header-wishlist">
                                     <a href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                                </div>
-                                <div class="same-style same-style-white cart-wrap">
+                                </div> -->
+                                <!-- <div class="same-style same-style-white cart-wrap">
                                     <a href="#" class="cart-active">
                                         <i class="dlicon shopping_bag-20"></i>
                                         <span class="count-style">02</span>
                                     </a>
-                                </div>
+                                </div> -->
                                 <div class="same-style same-style-white header-search">
                                     <a class="search-active" href="#">
                                         <i class="dlicon ui-1_zoom"></i>
                                     </a>
                                 </div>
-                                <div class="same-style same-style-white header-off-canvas">
+                                 <div class="same-style same-style-white">
+                                    <a href="/dashboard">
+                                        <i class="dlicon users_man-23"></i>
+                                        Dashboard
+                                    </a>
+                                </div>
+
+                                <!-- <div class="same-style same-style-white header-off-canvas">
                                     <a class="header-aside-button" href="#">
                                         <i class="dlicon ui-3_menu-left"></i>
                                     </a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -121,12 +128,12 @@
                     <div class="col-6">
                         <div class="mobile-header-right-wrap">
                             <div class="header-right-wrap header-right-flex">
-                                <div class="same-style cart-wrap">
+                                <!-- <div class="same-style cart-wrap">
                                     <a href="#" class="cart-active">
                                         <i class="dlicon shopping_bag-20"></i>
                                         <span class="count-style">02</span>
                                     </a>
-                                </div>
+                                </div> -->
                                 <div class="same-style header-off-canvas">
                                     <a class="header-aside-button" href="#">
                                         <i class="dlicon ui-3_menu-left"></i>
@@ -150,7 +157,7 @@
             </div>
         </div>
         <!-- mini cart start -->
-        <div class="sidebar-cart-active">
+        <!-- <div class="sidebar-cart-active">
             <div class="sidebar-cart-all">
                 <a class="cart-close" href="#"><i class="dlicon ui-1_simple-remove"></i></a>
                 <div class="cart-content">
@@ -190,19 +197,19 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- aside start -->
         <div class="header-aside-active">
             <div class="header-aside-wrap">
                 <a class="aside-close"><i class="dlicon ui-1_simple-remove"></i></a>
                 <div class="header-aside-content">
                     <div class="mobile-menu-area">
-                        <div class="mobile-search">
+                        <!-- <div class="mobile-search">
                             <form class="search-form" action="#">
                                 <input type="text" placeholder="Search entire store…">
                                 <button class="button-search"><i class="dlicon ui-1_zoom"></i></button>
                             </form>
-                        </div>
+                        </div> -->
                         <div class="mobile-menu-wrap">
                             <!-- mobile menu start -->
                             <div class="mobile-navigation">
@@ -224,7 +231,7 @@
                                         <li><a href="{{ route('blog') }}">Blog</a>
                                             
                                         </li>
-                                        {{-- <li><a href="shop-instagram.html">Instagram Shop </a></li> --}}
+                                        <!-- <li><a href="shop-instagram.html">Instagram Shop </a></li> -->
                                     </ul>
                                 </nav>
                                 <!-- mobile menu navigation end -->
@@ -232,7 +239,7 @@
                             <!-- mobile menu end -->
                         </div>
                         <div class="mobile-curr-lang-wrap">
-                            <div class="single-mobile-curr-lang">
+                            <!-- <div class="single-mobile-curr-lang">
                                 <a class="mobile-language-active" href="#">Language <i class="fa fa-angle-down"></i></a>
                                 <div class="lang-curr-dropdown lang-dropdown-active">
                                     <ul>
@@ -240,8 +247,8 @@
                                         <li><a href="#">English (UK)</a></li>
                                     </ul>
                                 </div>
-                            </div>
-                            <div class="single-mobile-curr-lang">
+                            </div> -->
+                            <!-- <div class="single-mobile-curr-lang">
                                 <a class="mobile-currency-active" href="#">Currency <i class="fa fa-angle-down"></i></a>
                                 <div class="lang-curr-dropdown curr-dropdown-active">
                                     <ul>
@@ -249,46 +256,27 @@
                                         <li><a href="#">NGN</a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="single-mobile-curr-lang">
                                 <a class="mobile-account-active" href="#">My Account <i class="fa fa-angle-down"></i></a>
                                 <div class="lang-curr-dropdown account-dropdown-active">
                                     <ul>
-                                        <li><a href="#">Login</a></li>
-                                        <li><a href="#">Creat Account</a></li>
-                                        <li><a href="my-account.html">My Account</a></li>
+                                        <li><a href="/login">Login</a></li>
+                                        <li><a href="/register">Creat Account</a></li>
+                                        <li><a href="/dashboard">My Account</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="header-aside-menu">
-                        <nav>
-                            <ul>
-                                <li><a href="#">About HalfCast</a></li>
-                                <li><a href="#">Help Center</a></li>
-                                <li><a href="#">Blog</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <img src="{{ asset ('images/icon-img/payments.png') }}" alt="payment">
-                    <p>Pellentesque mollis nec orci id tincidunt. Sed mollis risus eu nisi aliquet, sit amet fermentum justo dapibus.</p>
-                    <div class="aside-contact-info">
-                        <ul>
-                            <li><i class="dlicon ui-2_time-clock"></i>Monday - Friday: 9:00 - 19:00</li>
-                            <li><i class="dlicon ui-1_email-84"></i>info@halfcast.com</li>
-                            <li><i class="dlicon tech-2_rotate"></i>(+234) 81 012 345 67</li>
-                            <li><i class="dlicon ui-1_home-minimal"></i>Trade Fair Complex - Lagos - Nigeria</li>
-                        </ul>
-                    </div>
                     <div class="social-icon-style mb-25">
-                        <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                        <!--<a class="facebook" href="#"><i class="fa fa-facebook"></i></a>-->
                         <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
                         <a class="instagram" href="#"><i class="fa fa-instagram"></i></a>
-                        {{-- <a class="behance" href="#"><i class="fa fa-behance"></i></a> --}}
+                        <!--<a class="behance" href="#"><i class="fa fa-behance"></i></a> -->
                     </div>
                     <div class="copyright">
-                        <p>© 2020 <a href="https://hasthemes.com/">HalfCast.</a> All rights reserved</p>
+                        <p>© 2020 <a href="/">HalfCast.</a> All rights reserved</p>
                     </div>
                 </div>
             </div>

@@ -82,8 +82,10 @@
                     </div>
                     <div class="col-xl-2 col-lg-2">
                         <div class="header-right-wrap header-right-flex">
-                            <div class="same-style header-wishlist">
-                                <a href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                            <div class="same-style header-search">
+                                <a class="search-active" href="#">
+                                    <i class="dlicon ui-1_zoom"></i>
+                                </a>
                             </div>
                             <div class="same-style cart-wrap">
                                 <a href="#" class="cart-active">
@@ -91,16 +93,41 @@
                                     <span class="count-style">02</span>
                                 </a>
                             </div>
-                            <div class="same-style header-search">
-                                <a class="search-active" href="#">
-                                    <i class="dlicon ui-1_zoom"></i>
-                                </a>
+                            <div class="main-menu menu-lh-1 main-menu-padding-1">
+                                <!-- Authentication Links -->
+                                <ul>
+                                     @guest
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{{ route('login') }}"><h4>{{ __('Login') }}</h4></a>
+                                        </li>
+                                        @if (Route::has('register'))
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="{{ route('register') }}"><h4>{{ __('Register') }}</h4></a>
+                                            </li>
+                                        @endif
+                                    @else
+                                        <li class="nav-item dropdown">
+                                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                                {{ Auth::user()->name }} <span class="caret"></span>
+                                            </a>
+
+                                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="{{ route('logout') }}"
+                                                onclick="event.preventDefault();
+                                                                document.getElementById('logout-form').submit();">
+                                                    {{ __('Logout') }}
+                                                </a>
+
+                                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                                    @csrf
+                                                </form>
+                                            </div>
+                                        </li>
+                                    @endguest
+                                </ul>
+                               
                             </div>
-                            <div class="same-style header-off-canvas">
-                                <a class="header-aside-button" href="#">
-                                    <i class="dlicon ui-3_menu-left"></i>
-                                </a>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -259,34 +286,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="header-aside-menu">
-                        <nav>
-                            <ul>
-                                <li><a href="#">About HalfCast</a></li>
-                                <li><a href="#">Help Center</a></li>
-                                <li><a href="#">Blog</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <img src="{{ asset ('images/icon-img/payments.png') }}" alt="payment">
-                    <p>Pellentesque mollis nec orci id tincidunt. Sed mollis risus eu nisi aliquet, sit amet fermentum justo dapibus.</p>
-                    <div class="aside-contact-info">
-                        <ul>
-                            <li><i class="dlicon ui-2_time-clock"></i>Monday - Friday: 9:00 - 19:00</li>
-                            <li><i class="dlicon ui-1_email-84"></i>info@halfcast.com</li>
-                            <li><i class="dlicon tech-2_rotate"></i>(+234) 81 012 345 67</li>
-                            <li><i class="dlicon ui-1_home-minimal"></i>Trade Fair Complex - Lagos - Nigeria</li>
-                        </ul>
-                    </div>
-                    <div class="social-icon-style mb-25">
-                        <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
-                        <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-                        <a class="instagram" href="#"><i class="fa fa-instagram"></i></a>
-                        {{-- <a class="behance" href="#"><i class="fa fa-behance"></i></a> --}}
-                    </div>
-                    <div class="copyright">
-                        <p>© 2020 <a href="/">HalfCast.</a> All rights reserved</p>
                     </div>
                 </div>
             </div>

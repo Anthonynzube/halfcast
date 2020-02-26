@@ -22,3 +22,13 @@ Route::get('blog', 'PagesController@blog')->name('blog');
 Auth::routes();
 
 Route::get('/dashboard', 'HomeController@dashboard')->name('dashboard');
+
+Route::post('/newsletter', 'NewsletterController@store');
+Route::get('/thanks', 'NewsletterController@thanks')->name('thanks');
+
+// use App\Mail\SubscriptionWelcomeMail;
+
+// Route::get('/email', function(){
+//     return new WelcomeMail();
+// }
+// );  

@@ -63,6 +63,7 @@
 html,
 body {
   height: 100%;
+  /* overflow-x: hidden; */
 }
 
 body {
@@ -74,6 +75,11 @@ body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
 }
+
+.main-wrapper{
+  overflow-x: hidden;
+}
+
 
 h1,
 h2,

@@ -3,7 +3,7 @@
 @section('content')
 <div class="login-register-area pt-95 pb-100">
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mt-100">
             <div class="col-md-8">
                 <div class="login-register-wrap register-wrap">
                     <h3> <i class="fa fa-user-o"></i> Register</h3>
