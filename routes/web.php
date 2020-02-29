@@ -24,11 +24,19 @@ Auth::routes();
 Route::get('/dashboard', 'HomeController@dashboard')->name('dashboard');
 
 Route::post('/newsletter', 'NewsletterController@store');
-Route::get('/thanks', 'NewsletterController@thanks')->name('thanks');
+// Route::get('/thanks', 'NewsletterController@thanks')->name('thanks');
 
-// use App\Mail\SubscriptionWelcomeMail;
+// use App\Mail\WelcomeMail;
+// use Illuminate\Support\Facades\Mail;
+// use App\User;
 
-// Route::get('/email', function(){
-//     return new WelcomeMail();
+// $user = \Auth::loginUsingId(9);
+
+// Route::get('/email', function() use($user){
+
+//     Mail::to($user)->send(new WelcomeMail($user));
+//     return new WelcomeMail($user);
 // }
-// );  
+// ); 
+
+ 
