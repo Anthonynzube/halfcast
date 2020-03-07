@@ -58,7 +58,7 @@
                                 <div data-countdown="2020/06/01"></div>
                             </div>
                             <div class="btn-style-1">
-                                <a href="{{ route('home') }}">
+                                <a href="/">
                                     <div class="btn-viewmore-normal btn-ptb-1 btn-viewmore-bg-white btn-viewmore-common btn-font-4 btn-ptb-inc">
                                         <span>Get Notified</span>
                                     </div>

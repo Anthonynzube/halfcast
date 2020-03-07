@@ -8,7 +8,7 @@
                         <h3>Page cannot be found!</h3>
                         <p>It looks like nothing was found at this locations.</p>
                         <div class="btn-style-1 text-center">
-                            <a class="btn-border-black2" href="{{route('home')}}">
+                            <a class="btn-border-black2" href="/">
                                 <div class="btn-viewmore-normal btn-ptb-3 btn-viewmore-bg-transparent btn-viewmore-common btn-font-3">
                                     <span>Back to home</span>
                                 </div>

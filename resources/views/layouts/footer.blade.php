@@ -20,11 +20,11 @@
                             <div class="footer-widget footer-info-list-2 mb-30">
                                 <h3 class="footer-title">Company Link</h3>
                                 <ul>
-                                    <li><a href="{{ route('about') }}">About Us</a></li>
+                                    <li><a href="/about">About Us</a></li>
                                     <li><a href="#">Help Center</a></li>
                                     <li><a href="#">Our Team</a></li>
                                     <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="{{ route('blog') }}">The Blog</a></li>
+                                    <li><a href="/blog">The Blog</a></li>
                                 </ul>
                             </div>
                         </div>
