@@ -12,7 +12,7 @@
         "cnvs/canvas": "^5.2",
         "fideloper/proxy": "^4.0",
         "guzzlehttp/guzzle": "^6.5",
-        "laravel/framework": "6.1.*",
+        "laravel/framework": "6.18.*",
         "laravel/helpers": "^1.1",
         "laravel/tinker": "^1.0",
         "spatie/laravel-newsletter": "^4.7"
